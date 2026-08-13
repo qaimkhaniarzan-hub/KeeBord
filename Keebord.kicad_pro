@@ -70,7 +70,24 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "silk_over_copper|283387500|129550000|19181e93-c39d-4d19-9d38-101b6f00061d|ab69bf2c-f347-480d-8f20-c0c9ed6fb04a",
+          ""
+        ],
+        [
+          "silk_over_copper|285387500|129550000|19181e93-c39d-4d19-9d38-101b6f00061d|d95cafa4-6021-42f0-a96d-5cf987862928",
+          ""
+        ],
+        [
+          "silk_over_copper|287387500|129550000|19181e93-c39d-4d19-9d38-101b6f00061d|1b160e51-ec1e-4ef0-8d5e-ac656c227f9c",
+          ""
+        ],
+        [
+          "silk_over_copper|289387500|129550000|19181e93-c39d-4d19-9d38-101b6f00061d|53b90bb5-857f-4933-82c0-ed1c26ec50dc",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -526,7 +543,7 @@
       "netlist": "",
       "plot": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "Keebord.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -661,7 +678,7 @@
         "uuid": "5f66fa6e-2823-4191-b13e-80777c0f89d3"
       }
     ],
-    "used_designators": "A1,SW1-178,S1-4,D1-178",
+    "used_designators": "A1,SW1-178,JS1,S1-4,#PWR1-2,D1-178,U1",
     "variants": []
   },
   "sheets": [
