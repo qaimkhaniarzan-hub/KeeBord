@@ -33,7 +33,13 @@ Now i can show u a 3d render bc at this stage the mapping of everything was done
 here it is!
 <img width="1157" height="463" alt="Screenshot 2026-08-13 080711" src="https://github.com/user-attachments/assets/76ad7ef1-9b6d-4b90-bef7-f97b54ebb201" />
 pretty cool right! I'm so proud of me yay
-the next step was to make a 3d case using onshape! i need to make it fit with my KeePad(hich i havent made yet) like a jigsaw piece lol
+the next step was to make a 3d case using blender
+Its been another day!
+I just finished the case 
+<img width="1474" height="886" alt="Screenshot 2026-08-14 214806" src="https://github.com/user-attachments/assets/9a0ed4af-3a1a-4652-815e-0b42080cfcc7" />
+as you can see, its quite simple and nice! 
+the next and final step is writing the firmware. I'll be doing this with github actions
+
 
 
 
