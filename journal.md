@@ -25,5 +25,8 @@ I just finished the case
 <img width="1474" height="886" alt="Screenshot 2026-08-14 214806" src="https://github.com/user-attachments/assets/9a0ed4af-3a1a-4652-815e-0b42080cfcc7" />
 as you can see, its quite simple and nice! it took me like 2 hours and thirty minutes
 before i move on, im gonna make sure the scale is good enough and im gonna update the repo
-the next and final step is writing the firmware. I'll be doing this with github actions
+the next and final step is writing the firmware. 
 
+Chat after around 4 more hours i am officially done with the project! Thank you for reading!
+Total Active Work Time: 10 hours 30 minutes
+Hackatime tracked time: ~6 hours
