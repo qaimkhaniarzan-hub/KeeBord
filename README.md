@@ -37,16 +37,16 @@ Initially, I was going to make a 65% keyboard with no addiitonal parts, but sinc
 
 ## Bill of Materials (BOM)
 
-| Component | Quantity | Description | Unit Price | Total Price | Link |
-| :--- | :---: | :--- | :---: | :---: | :--- |
-| Custom KeeBord PCB | 1 | 2-Layer Custom Printed Circuit Board (300mm x 100mm) | $18.40 | $18.40 | [JLCPCB](https://jlcpcb.com) |
-| Raspberry Pi Pico | 1 | Microcontroller Board (RP2040) | $4.00 | $4.00 | [Raspberry Pi](https://www.raspberrypi.com/products/raspberry-pi-pico/) |
-| MX Mechanical Switches | 59 | Linear/Tactile MX Style Key Switches | $0.20 | $11.80 | [AliExpress](https://aliexpress.com) |
-| 1N4148 Switching Diodes | 59 | Signal Diodes for Matrix Isolation | $0.02 | $1.18 | [AliExpress](https://aliexpress.com) |
-| Analog Joystick Module | 1 | 2-Axis Thumb Joystick (Potentiometer) | $1.50 | $1.50 | [AliExpress](https://aliexpress.com) |
-| Keycap Set | 1 | Standard 60% MX Keycap Set | $12.00 | $12.00 | [AliExpress](https://aliexpress.com) |
-| 3D Printed Case | 1 | Custom Blender Enclosure (PLA) | $5.00 | $5.00 | Self-Printed / Local |
-| **Total Estimated Cost** | | | | **$53.88** | |
+| Component | Quantity | Description | Unit Price | Total Price |
+| :--- | :---: | :--- | :---: | :---: |
+| Custom KeeBord PCB | 1 | 2-Layer Custom Printed Circuit Board (300mm x 100mm) | $18.40 | $18.40 |
+| Raspberry Pi Pico | 1 | Microcontroller Board (RP2040) | $4.00 | $4.00 |
+| MX Mechanical Switches | 59 | Linear/Tactile MX Style Key Switches | $0.20 | $11.80 |
+| 1N4148 Switching Diodes | 59 | Signal Diodes for Matrix Isolation | $0.02 | $1.18 |
+| Analog Joystick Module | 1 | 2-Axis Thumb Joystick (Potentiometer) | $1.50 | $1.50 |
+| Keycap Set | 1 | Standard 60% MX Keycap Set | $12.00 | $12.00 |
+| 3D Printed Case | 1 | Custom Blender Enclosure (PLA) | $5.00 | $5.00 |
+| **Total Estimated Cost** | | | | **$53.88** |
 
 
 
