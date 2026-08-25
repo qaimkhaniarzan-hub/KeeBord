@@ -12,3 +12,48 @@ Initially, I was going to make a 65% keyboard with no addiitonal parts, but sinc
 <img width="1131" height="684" alt="image" src="https://github.com/user-attachments/assets/28e26fee-0188-49cc-90da-ff1e912cd021" />
 
 
+## Technical Overview
+
+### Electronics & Hardware Setup
+* **Microcontroller:** Raspberry Pi Pico (RP2040) running Python-based firmware.
+* **Switch Matrix:** 5 rows and 14 columns utilizing a diode-isolated matrix (COL2ROW orientation with 1N4148 diodes) to prevent ghosting across all 59 primary mechanical keys.
+* **Analog Controller:** 2-axis analog thumbstick wired directly to RP2040 ADC channels (`ADC0`/`GP26` for X-axis and `ADC1`/`GP27` for Y-axis) to emulate pitch and roll axis control for simulators.
+* **PCB Design:** Custom 2-layer FR-4 circuit board designed in KiCad, routing power, row/col matrix connections, and analog signals down to a single compact footprint.
+
+### Enclosure & Ergonomics
+* **Case:** Custom 3D printable shell designed in Blender and exported as standard `.STEP` assembly geometry.
+* **Plate Integration:** Integrated mounting points providing rigid mounting for hot-swap switch sockets and structural support across the 300mm x 100mm footprint.
+
+---
+
+## How to Use KeeBord
+
+1. **Plugging In:** Connect the onboard Raspberry Pi Pico to your PC via a USB-C cable.
+2. **Standard Typing:** Typing functions out-of-the-box as a standard 60% mechanical layout with complete key rollover.
+3. **Joystick Control:** In flight simulators or space games, map `ADC0` and `ADC1` to primary yoke or throttle axes inside your simulator keybind settings.
+4. **Firmware Customization:** To remap key assignments, simply edit `firmware/code.py` using any text editor—no compiling or specialized flashed toolchains required.
+
+---
+
+## Bill of Materials (BOM)
+
+| Component | Quantity | Description | Unit Price | Total Price | Link |
+| :--- | :---: | :--- | :---: | :---: | :--- |
+| Custom KeeBord PCB | 1 | 2-Layer Custom Printed Circuit Board (300mm x 100mm) | $18.40 | $18.40 | [JLCPCB](https://jlcpcb.com) |
+| Raspberry Pi Pico | 1 | Microcontroller Board (RP2040) | $4.00 | $4.00 | [Raspberry Pi](https://www.raspberrypi.com/products/raspberry-pi-pico/) |
+| MX Mechanical Switches | 59 | Linear/Tactile MX Style Key Switches | $0.20 | $11.80 | [AliExpress](https://aliexpress.com) |
+| 1N4148 Switching Diodes | 59 | Signal Diodes for Matrix Isolation | $0.02 | $1.18 | [AliExpress](https://aliexpress.com) |
+| Analog Joystick Module | 1 | 2-Axis Thumb Joystick (Potentiometer) | $1.50 | $1.50 | [AliExpress](https://aliexpress.com) |
+| Keycap Set | 1 | Standard 60% MX Keycap Set | $12.00 | $12.00 | [AliExpress](https://aliexpress.com) |
+| 3D Printed Case | 1 | Custom Blender Enclosure (PLA) | $5.00 | $5.00 | Self-Printed / Local |
+| **Total Estimated Cost** | | | | **$53.88** | |
+
+---
+
+## Repository Structure
+├── Hardware/          # KiCad project files (.kicad_sch, .kicad_pcb) and Gerber export files
+├── firmware/          # Onboard micro-controller runtime firmware (code.py)
+├── KeeBordCase.step   # Complete 3D CAD assembly file for the enclosure and plate
+├── BOM.csv            # Complete bill of materials spreadsheet with component sources
+├── journal.md         # Design history, log, and step-by-step progress
+└── README.md          # Project overview and documentation
