@@ -49,11 +49,4 @@ Initially, I was going to make a 65% keyboard with no addiitonal parts, but sinc
 | **Total Estimated Cost** | | | | **$53.88** | |
 
 ---
-
-## Repository Structure
-├── Hardware/          # KiCad project files (.kicad_sch, .kicad_pcb) and Gerber export files
-├── firmware/          # Onboard micro-controller runtime firmware (code.py)
-├── KeeBordCase.step   # Complete 3D CAD assembly file for the enclosure and plate
-├── BOM.csv            # Complete bill of materials spreadsheet with component sources
-├── journal.md         # Design history, log, and step-by-step progress
-└── README.md          # Project overview and documentation
+# thanks :)
